@@ -184,7 +184,7 @@ namespace System.Windows.Controls
 
         internal bool EqualsImpl(DataGridCellInfo cell)
         {
-            return (cell._column == _column) && (cell.Owner == Owner) && (cell._info == _info);
+            return (cell._column == _column) && (cell.Owner == Owner) && (cell.Info == Info);
         }
 
         /// <summary>
